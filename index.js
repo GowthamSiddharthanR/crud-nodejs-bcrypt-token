@@ -14,8 +14,8 @@ const SECRET_KEY =
 // Midleware
 app.use(
   cors({
-    // origin: "https://steady-syrniki-a3bad6.netlify.app",
-    origin: "http://localhost:5173",
+    origin: "https://crud-reactjs-axios-formic.vercel.app",
+    // origin: "http://localhost:5173",
   })
 );
 app.use(express.json());
